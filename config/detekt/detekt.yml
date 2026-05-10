@@ -12,16 +12,33 @@ libraries:
   LibraryEntitiesShouldNotBePublic:
     active: false
 
+complexity:
+  StringLiteralDuplication:
+    active: false
+
+naming:
+  FunctionNameMaxLength:
+    active: false
+
 style:
   ClassOrdering:
+    active: false
+  ForbiddenComment:
     active: false
 
 ktlint:
   FunctionSignature:
+    active: true
+    forceMultilineWhenParameterCountGreaterOrEqualThan: 3
+  ClassSignature:
     active: false
+  ParameterListWrapping:
+    active: true
   MultilineExpressionWrapping:
     active: false
   BlankLineBeforeDeclaration:
     active: false
   BlankLineBetweenWhenConditions:
+    active: false
+  FunctionNameMaxLength:
     active: false

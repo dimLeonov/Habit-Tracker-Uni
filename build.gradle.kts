@@ -1,6 +1,7 @@
 plugins {
     id("habittracker.kotlin-module") apply false
     id("habittracker.spring-boot-app") apply false
+    alias(libs.plugins.jpa) apply false
 }
 
 subprojects {

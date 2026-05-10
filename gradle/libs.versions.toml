@@ -1,7 +1,7 @@
 [versions]
 detekt = "2.0.0-alpha.3"
 java = "25"
-kotlin = "2.3.20"
+kotlin = "2.3.21"
 spring-boot = "4.1.0-RC1"
 
 [libraries]
@@ -13,11 +13,18 @@ kotlin-css = { module = "org.jetbrains.kotlin-wrappers:kotlin-css-jvm", version 
 kotlinx-html = { module = "org.jetbrains.kotlinx:kotlinx-html-jvm", version = "0.12.0" }
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
 spring-boot-starter-test = { module = "org.springframework.boot:spring-boot-starter-test" }
+spring-boot-starter-data-jpa = { module = "org.springframework.boot:spring-boot-starter-data-jpa" }
+spring-boot-starter-security = { module = "org.springframework.boot:spring-boot-starter-security" }
+spring-boot-starter-validation = { module = "org.springframework.boot:spring-boot-starter-validation" }
 spring-boot-starter-web = { module = "org.springframework.boot:spring-boot-starter-web" }
 spring-boot-dependencies = { module = "org.springframework.boot:spring-boot-dependencies", version.ref = "spring-boot" }
+spring-boot-h2console = { module = "org.springframework.boot:spring-boot-h2console" }
+spring-security-test = { module = "org.springframework.security:spring-security-test" }
+h2 = { module = "com.h2database:h2" }
 
 [plugins]
 detekt = { id = "dev.detekt", version.ref = "detekt" }
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+jpa = { id = "org.jetbrains.kotlin.plugin.jpa", version.ref = "kotlin" }
 kotlin-spring = { id = "org.jetbrains.kotlin.plugin.spring", version.ref = "kotlin" }
 spring-boot = { id = "org.springframework.boot", version.ref = "spring-boot" }
