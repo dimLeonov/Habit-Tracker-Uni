@@ -1,0 +1,13 @@
+### via Header
+GET localhost:8080/api/leaderboard
+API-Version: 1
+###
+
+### Via header
+GET localhost:8080/api/leaderboard
+API-Version: 2
+###
+
+### Fallbacks to default version (2)
+GET localhost:8080/api/leaderboard
+###
