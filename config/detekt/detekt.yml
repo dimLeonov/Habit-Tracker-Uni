@@ -1,0 +1,27 @@
+comments:
+  UndocumentedPublicClass:
+    active: false
+  UndocumentedPublicFunction:
+    active: false
+  UndocumentedPublicProperty:
+    active: false
+
+libraries:
+  ForbiddenPublicDataClass:
+    active: false
+  LibraryEntitiesShouldNotBePublic:
+    active: false
+
+style:
+  ClassOrdering:
+    active: false
+
+ktlint:
+  FunctionSignature:
+    active: false
+  MultilineExpressionWrapping:
+    active: false
+  BlankLineBeforeDeclaration:
+    active: false
+  BlankLineBetweenWhenConditions:
+    active: false
